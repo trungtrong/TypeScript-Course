@@ -1,0 +1,16 @@
+var drawPoint = function (point) {
+    console.log("Point A(" + point.x + ", " + point.y + ")");
+};
+drawPoint({
+    x: 3,
+    y: 2
+});
+//        Readonly properties
+/*
+interface Point {
+  readonly x: number;
+  readonly y: number;
+}
+
+let p1: Point = {x: 10, y: 20};
+p1.x = 5; // Error    */ 
